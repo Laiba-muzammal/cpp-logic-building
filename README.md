@@ -18,7 +18,7 @@ A collection of fundamental algorithms and programs implemented in C++.
 **File**: `number_reversal.cpp`  
 Reverses the digits of a given number.
 
-✨ **Features**:
+##### ✨ **Features**:
 - Handles positive integers
 - Preserves leading zeros in the reversed number
 - Includes input validation
@@ -35,7 +35,7 @@ The reversed number is: 4321
 File: fibonacci.cpp
 Generates Fibonacci sequence up to n terms.
 
-✨ Features:
+##### ✨ Features:
 
 Both iterative and recursive implementations
 
@@ -60,7 +60,7 @@ matrix_search_replace.cpp
 
 matrix_find_largest.cpp
 
-✨ Features:
+##### ✨ Features:
 
 Dynamic matrix size handling
 
@@ -87,7 +87,7 @@ Largest element: 9 at position (2,2)
 File: vowel_checker.cpp
 Checks if an input character is a vowel.
 
-✨ Features:
+##### ✨ Features:
 
 Handles both uppercase and lowercase
 
@@ -107,7 +107,7 @@ Enter a character: E
 File: largest_number.cpp
 Finds the largest among three numbers.
 
-✨ Features:
+##### ✨ Features:
 
 Handles equal numbers case
 
@@ -128,7 +128,7 @@ The largest number is: 9
 File: decimal_to_binary.cpp
 Converts decimal numbers to binary representation.
 
-✨ Features:
+##### ✨ Features:
 
 Step-by-step conversion display
 
