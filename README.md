@@ -137,5 +137,3 @@ Feel free to contribute by:
 - Adding more algorithms
 - Improving existing implementations
 - Adding test cases
-
-```
