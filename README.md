@@ -1,4 +1,3 @@
-markdown
 # 🚀 C++ Algorithms Collection
 
 A collection of fundamental algorithms and programs implemented in C++.
@@ -28,7 +27,11 @@ Reverses the digits of a given number.
 ```bash
 Enter a number: 1234
 The reversed number is: 4321
-� Fibonacci Sequence
+```
+
+---
+
+## � Fibonacci Sequence
 File: fibonacci.cpp
 Generates Fibonacci sequence up to n terms.
 
@@ -42,11 +45,15 @@ Optimized for performance
 
 Example:
 
-bash
+```
 Enter the number of terms: 7
 Fibonacci Series up to 7 terms:
 0 1 1 2 3 5 8
-🔲 2D Array Operations
+```
+
+---
+
+## 🔲 2D Array Operations
 Files:
 
 matrix_search_replace.cpp
@@ -65,14 +72,18 @@ Matrix transpose operation
 
 Example:
 
-bash
+```
 Enter matrix dimensions (rows columns): 3 3
 Enter elements:
 1 2 3
 4 5 6
 7 8 9
 Largest element: 9 at position (2,2)
-🔊 Vowel Checker
+```
+
+---
+
+## 🔊 Vowel Checker
 File: vowel_checker.cpp
 Checks if an input character is a vowel.
 
@@ -85,11 +96,14 @@ Includes y as optional vowel
 Input validation for single characters
 
 Example:
-
-bash
+```
 Enter a character: E
 'E' is a vowel.
-🏆 Largest Number Finder
+```
+
+---
+
+## 🏆 Largest Number Finder
 File: largest_number.cpp
 Finds the largest among three numbers.
 
@@ -103,10 +117,14 @@ Template version for different data types
 
 Example:
 
-bash
+```
 Enter numbers (space separated): 5 9 2 7 1
 The largest number is: 9
-🔢 Decimal to Binary Converter
+```
+
+---
+
+## 🔢 Decimal to Binary Converter
 File: decimal_to_binary.cpp
 Converts decimal numbers to binary representation.
 
@@ -119,8 +137,7 @@ Handles both positive and negative integers
 Includes recursive implementation
 
 Example:
-
-bash
+```
 Enter a decimal number: 13
 Conversion steps:
 13 ÷ 2 = 6 remainder 1
@@ -129,16 +146,23 @@ Conversion steps:
 1 ÷ 2 = 0 remainder 1
 
 13 in decimal = 1101 in binary
-🛠️ How to Run
-Compile any program:
+```
 
-bash
+---
+
+## 🛠️ How to Run
+### Compile any program:
+
+```
 g++ -std=c++17 -Wall -Wextra filename.cpp -o output
-Run the executable:
+```
 
-bash
+#### Run the executable:
+```
 ./output
-For testing:
+```
 
-bash
+#### For testing:
+```
 g++ -std=c++17 -g test_file.cpp -o test_output && ./test_output
+```
