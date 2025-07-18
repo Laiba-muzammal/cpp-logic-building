@@ -1,21 +1,31 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
-int main() {
-    int n, binary[32], i = 0;
-
-    cout << "Enter a decimal number: ";
-    cin >> n;
-
-    while (n > 0) {
-        binary[i] = n % 2;
-        n = n / 2;
-        i++;
+string decimalToBinary(int decimal) {
+    if (decimal == 0) return "0";
+    
+    string binary;
+    while (decimal > 0) {
+        int remainder = decimal % 2;
+        binary = to_string(remainder) + binary;
+        decimal /= 2;
     }
+    return binary;
+}
 
-    cout << "Binary: ";
-    for (int j = i - 1; j >= 0; j--)
-        cout << binary[j];
-
+int main() {
+    int decimal;
+    cout << "Enter a decimal number: ";
+    cin >> decimal;
+    
+    if (decimal < 0) {
+        cout << "Please enter a non-negative integer." << endl;
+        return 1;
+    }
+    
+    string binary = decimalToBinary(decimal);
+    cout << decimal << " in decimal = " << binary << " in binary" << endl;
+    
     return 0;
 }
